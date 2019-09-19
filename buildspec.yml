@@ -16,4 +16,4 @@ phases:
       - cp target/*.war .
 artifacts:
   files:
-    - .
+    - awsproject-1.0-SNAPSHOT.war
