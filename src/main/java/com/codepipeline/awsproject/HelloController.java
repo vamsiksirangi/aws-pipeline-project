@@ -10,6 +10,6 @@ public class HelloController {
 
     @GetMapping
     public String test(){
-        return "Hello Everyone";
+        return "Hello.. This is my first pipeline";
     }
 }
