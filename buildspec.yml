@@ -16,4 +16,4 @@ phases:
       - cp target/*.war .
 artifacts:
   files:
-    - awsproject*/**/*
+    - awsproject*.war
