@@ -13,7 +13,7 @@ phases:
   post_build:
     commands:
       - echo "Entered the post-build phase"
-      - aws s3 cp target/*.war s3://mycd-bucket/mytest
+      - aws s3 cp target/*.war s3://mycd-bucket/
 artifacts:
   files:
     - awsproject*.war
